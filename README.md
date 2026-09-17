@@ -1,45 +1,21 @@
 ﻿# About Me
-
-> *[One professional line: who you are and what you focus on, for example: "Student exploring AI and prompt engineering, building a portfolio of practical, well-documented prompts."]*
-
-## Instructions for Use (delete this section when you write your own)
-
-This is the homepage of a **public** portfolio. Anyone on the internet can read it, including future employers, so keep it professional and keep your private life private.
-
-**Safe to include:** your first name or a professional name, your general interests and goals, the skills you are building, and a professional way to reach you (a GitHub profile, a professional or school email, or a LinkedIn profile if you have one).
-
-**Do not include:** your home address, phone number, birthdate, student ID, class period or schedule, personal social media, or anything you would not want a stranger to know. Never post other people's private information either.
-
-Write it the way you would introduce yourself to a mentor or a hiring manager: confident, specific, and professional.
-jadslkjf
----
-
+> *[I am student and I'm trying to learn a programming language and building a portfolio of practical well-documented prompts 
+ and I am exploring the technology and the AI ."]*
 ## Who I Am
-
-[A short, professional introduction. Who you are as a student or aspiring professional, and the direction you are headed. Two or three sentences is plenty.]
-
+My name is Breno and I'm trying to learn Python, JAVA and C++ and in the future I want to help to develop projects and things like that and I want to lean new skills too for communication and develop my abilities with programming.
 ## My Interest in AI
-
-[What specifically interests you about AI and prompt engineering. Be specific rather than saying "I like AI." For example, the kinds of problems you want to solve or the tools you enjoy working with.]
-
+I like AI because they can help you with a lot of things, example : help you to make a prompt, help you to have ideas for a project and can help you to study for anything an that is the reason why I like AI.
 ## Skills and Focus Areas
-
-[List the skills you are developing or want to develop. Keep it professional and relevant.]
-- [Skill or focus area 1]
-- [Skill or focus area 2]
-- [Skill or focus area 3]
-
+List the skills you are developing or want to develop. Keep it professional and
+relevant.
+- [Computer Science & Algorithmic Logic]
+- [Multi-Language Development]
+- [Software Engineering Fundamentals]
 ## Goals
-
-[Your academic or career goals. Where you would like this work to take you, for example a field you want to study or a type of role you are aiming for.]
-
+My goal is get experience for a job and learn more about AI and programing and create something cool with it.
 ## What You Will Find in This Portfolio
-
-[A short description of what a visitor can explore here, for example your documented prompts and the design thinking behind them.]
-
+You can explores prompts and my projects here.
 ## Connect
-
 [Professional contact only. Choose what you are comfortable making public.]
-- GitHub: [your GitHub profile link]
-- Email: [a professional or school email, optional]
-- LinkedIn: [your LinkedIn profile, optional]
+- GitHub: [https://github.com/BrenoMDM2]
+- Email: [Brenobr2209@gmail.com]
