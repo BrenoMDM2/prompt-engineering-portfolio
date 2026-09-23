@@ -1,30 +1,37 @@
-# Design Methodology: [Prompt Name]
-## Design Goal
-[A sentence or two on what you were trying to achieve and who the prompt is for.]
+```redução
+# Metodologia de Design: Caçador de Repetições
+
+## Objetivo do projeto
+O objetivo deste prompt é para iniciantes em programação identificar linhas ou lógicas de código repetido e aprender a simplificar a aplicação do princípio DRY (*Don't Repeat Yourself*), sem ficar tão complexo.
+
 ---
-## Design Approach: Structure and Technique
-Explain the two design choices behind your prompt and why they fit the task.
-**Structure I used:** [A lesson framework, a modified framework, or your own
-structure, for example: C-A-R-E, a modified R-T-F, or a custom
-Context/Task/Constraints/Format layout.]
-**Why this structure fits my task:**
-- [Reason 1]
-- [Reason 2]
-**Technique I used:** [Zero-shot, few-shot, chain-of-thought, or zero-shot chain-
-of-thought.]
-**Why this technique fits my task:**
-[For example: I used few-shot because the AI needed to copy a specific tone, so I
-gave it two sample outputs. Or: I used zero-shot chain-of-thought because the task
-needs step-by-step logic but I did not have examples, so I added "Think through
-this step by step before you answer."]
-**Example of modifying a framework (delete if not relevant):**
-I started from R-T-F (Role, Task, Format) and added two parts. I added a
-**Constraints** part to stop the model from making pricing claims, and an
-**Example** part to lock in the tone I wanted. My final structure was Role, Task,
-Constraints, Example, Format. Each added part solved a specific problem the plain
-framework left open.
+
+## Abordagem de Design: Estrutura e Técnica
+
+**Estrutura que utilizei:** Layout estruturado de **Contexto / Tarefa / Entradas (Contexto / Tarefa / Entradas)**.
+
+**Por que essa estrutura se adapta à minha tarefa:**
+- Porque eu gostei desse design e tambem
+- Separar as instruções da tarefa do código do usuário, evitando que o modelo misture as orientações com o código a ser analisado.
+
+**Técnica que usei:** Tiro zero.
+
+**Por que esta técnica se adapta à minha tarefa:**
+A identificação de repetições e a refatoração básica de código são capacidades nativas bem consolidadas em modelos de linguagem. Uma instrução direta e bem delimitada é suficiente para obter a resposta desejada sem a necessidade de exemplos (*few-shot*).
+
 ---
-## Part-by-Part Justification
+
+## Justificativa Parte por Parte
+
+| Parte | O que coloquei aqui | Por que o prompt precisa disso |
+|------|-----------------|------------------------|
+| **CONTEXTO** | `eu achei legal essa ideia porque isso pode ajudar bastante com menos tempo de digitacao menos bugsfaciitar a leitura tambem ` |
+| **TAREFA** | `Analisa o código que voce fez, identifica linhas ou lógicas que foram repetidas, explica em linguagem simples por que razão por um coigo desnessesario pode ser evitada e apresenta a versão corrigida e simplificada do código.` |
+| **Código e linguagem de programação** | `PROGRAMMING_LANGUAGE: Python, JavaScript.`<br>`CÓDIGO: [Quando eu fazer o codigo, eu coloco aqui]` 
+---
+
+## Teste e iteração
+
 Justify each part of your prompt: what it is, what goes in it, and why the prompt
 needs it. If your prompt is technique-driven and short (for example zero-shot
 chain-of-thought), justify the technique and the few parts you do have instead.
