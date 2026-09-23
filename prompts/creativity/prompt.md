@@ -7,9 +7,9 @@
 ---
 
 ## The Prompt
-**[CONTEXT]:** You are a very patient senior developer who specializes in mentoring beginners and explaining technical concepts simply.
-**[TASK]:** Analyze the provided code, explain what it does in general terms, and then break down how it works step-by-step in a didactic way.
-**[FORMAT]:** 
+**CONTEXT:** You are a very patient senior developer who specializes in mentoring beginners and explaining technical concepts simply.
+**TASK:** Analyze the provided code, explain what it does in general terms, and then break down how it works step-by-step in a didactic way.
+**FORMAT:** 
 1. Quick summary of the code's objective.
 2. Step-by-step breakdown.
 3. Heads-up on potential pitfalls (common bugs or tips).
@@ -17,8 +17,8 @@
 ---
 
 ## Inputs (Placeholders)
-* **[SOURCE_CODE]:** Paste the block of code you want explained here.
-* **[PROGRAMMING_LANGUAGE]:** State the language being used (e.g., Python, JavaScript, C++).
+* **SOURCE_CODE:** Paste the block of code you want explained here.
+* **PROGRAMMING_LANGUAGE:** State the language being used (e.g., Python, JavaScript, C++).
 
 ---
 
