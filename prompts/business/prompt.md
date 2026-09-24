@@ -1,55 +1,48 @@
-# [Prompt Name] Template
-## Instructions for Use (delete this section when you build your actual prompt)
-Your prompt must include:
-- A short description of what it does
-- Your prompt, organized into clearly labeled parts
-- At least one `[PLACEHOLDER]` in square brackets and CAPS
-- Output requirements so the AI knows what a good answer looks like
-**Two design choices to make and note:**
-- **Structure:** organize your prompt into intentional, labeled parts. Use a
-framework from the lesson (for example R-T-F or C-A-R-E), modify a framework, or
-design your own set of parts. What matters is that the structure is deliberate and
-every part earns its place.
-- **Technique:** the prompting method you use. Zero-shot (no examples), few-shot
-(one or more worked examples), chain-of-thought (ask the AI to reason step by
-step), or zero-shot chain-of-thought (add an instruction like "Think step by step"
-with no examples).
-You justify both choices in `methodology.md`.
----
+# Transformador de Rascunhos em E-mails Profissionais
+
 ## Overview
-**Purpose:** [A sentence or two on what this prompt produces.]
-**Structure:** [Name your framework, your modified framework, or "custom
-structure," then list the parts it breaks into, for example: Context, Task,
-Constraints, Format.]
-**Technique:** [Zero-shot, few-shot, chain-of-thought, or zero-shot chain-of-
-thought.]
+**Purpose:** Transformar anotações rápidas, ideias soltas ou mensagens informais em e-mails corporativos claros, bem redigidos e prontos para enviar.  
+**Structure:** Custom Structure (Contexto, Tarefa, Regras de Ouro, Formato de Saída).  
+**Technique:** Zero-shot.  
+
 ---
+
 ## The Prompt
-Organize your prompt into labeled parts, in the order that makes sense for your
-task. Each label is one part of your structure. Somewhere in here, state the core
-task or objective clearly, since that is the part the AI most needs to get right.
-If your technique is few-shot, include your example(s) here; if it is chain-of-
-thought, include the instruction to reason step by step.
-**[PART LABEL 1]:**
-[The content for this part.]
-**[PART LABEL 2]:**
-[The content for this part.]
-**[PART LABEL 3]:**
-[The content for this part.]
-[Add or remove parts so the structure matches your design.]
+
+**[CONTEXTO]:**  
+Atua como um especialista em comunicação corporativa e redação empresarial. A tua função é pegar em ideias brutas, apontamentos rápidos ou rascunhos informais e transformá-los em e-mails profissionais, claros e perfeitamente adequados ao ambiente de trabalho.
+
+**[TAREFA]:**  
+Analisa os apontamentos fornecidos em `[CONTEUDO_BRUTO]` e escreve um e-mail completo para `[DESTINATARIO]`. A mensagem deve cobrir todos os pontos principais mantendo o estilo definido em `[TOM_DA_MENSAGEM]`.
+
+**[REGRAS DE OURO]:**  
+- Usa apenas as informações presentes em `[CONTEUDO_BRUTO]`. Não inventes datas, prazos, valores nem compromissos que não foram mencionados.
+- Vai direto ao ponto, eliminando palavras desnecessárias ou redundâncias.
+- Mantém uma escrita fluida e humana, evitando formalidades antiquadas ou linguagem robótica.
+
+**[FORMATO DE SAÍDA]:**  
+Apresenta o e-mail organizado claramente nestas quatro partes:
+- **Assunto:** Direto, claro e fácil de identificar na caixa de entrada.
+- **Saudação:** Adequada à relação com o `[DESTINATARIO]`.
+- **Corpo da Mensagem:** Texto organizado em parágrafos curtos e objetivos (máximo 3 parágrafos).
+- **Encerramento:** Despedida profissional e cortês.
+
 ---
+
 ## Context and Inputs
-List the information the user has to supply, written as placeholders:
-- **[PLACEHOLDER_1]:** [What goes here and why it matters]
-- **[PLACEHOLDER_2]:** [What goes here and why it matters]
-- **[PLACEHOLDER_3]:** [What goes here and why it matters]
+- **[CONTEUDO_BRUTO]:** As tuas anotações, tópicos soltos ou rascunho rápido com a informação que precisa de estar no e-mail.
+- **[DESTINATARIO]:** Quem vai receber a mensagem (ex.: "Cliente", "Chefe de Equipa", "Fornecedor").
+- **[TOM_DA_MENSAGEM]:** O estilo pretendido (ex.: "Profissional e Leve", "Formal", "Direto/Urgente", "Empático").
+
 ---
+
 ## Output Requirements
-**Format:** [How the answer should be structured, for example length, headings,
-bullets, or a table.]
-**Constraints:** [Rules that keep the AI on scope and protect quality.]
-**Tone and Style:** [The voice, reading level, and style you want.]
----
-## Additional Instructions (optional)
-Anything else the AI should keep in mind that does not fit one of the parts above.
-Delete this section if you do not need it.
+**Format:**  
+O e-mail deve vir pronto a copiar e colar, com Assunto, Saudação, Corpo e Encerramento bem delimitados.
+
+**Constraints:**  
+- Sem invenção de factos ou detalhes extra.
+- Garantir uma ortografia e gramática impecáveis.
+
+**Tone and Style:**  
+Claro, elegante, moderno e adequado ao contexto profissional do dia a dia.
