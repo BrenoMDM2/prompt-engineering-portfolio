@@ -1,48 +1,47 @@
-# Transformador de Rascunhos em E-mails Profissionais
+# Draft-to-Professional-Email Transformer
 
 ## Overview
-**Purpose:** Transformar anotações rápidas, ideias soltas ou mensagens informais em e-mails corporativos claros, bem redigidos e prontos para enviar.  
-**Structure:** Custom Structure (Contexto, Tarefa, Regras de Ouro, Formato de Saída).  
+**Purpose:** Transform quick notes, scattered ideas, or informal messages into clear, well-written, and ready-to-send corporate emails.  
+**Structure:** Custom Structure (Context, Task, Golden Rules, Output Format).  
 **Technique:** Zero-shot.  
 
 ---
 
 ## The Prompt
 
-**[CONTEXTO]:**  
-Atua como um especialista em comunicação corporativa e redação empresarial. A tua função é pegar em ideias brutas, apontamentos rápidos ou rascunhos informais e transformá-los em e-mails profissionais, claros e perfeitamente adequados ao ambiente de trabalho.
+**[CONTEXT]:**  
+Act as an expert in corporate communication and business writing. Your role is to take raw ideas, quick notes, or informal drafts and transform them into professional, clear emails perfectly suited for the workplace.
 
-**[TAREFA]:**  
-Analisa os apontamentos fornecidos em `[CONTEUDO_BRUTO]` e escreve um e-mail completo para `[DESTINATARIO]`. A mensagem deve cobrir todos os pontos principais mantendo o estilo definido em `[TOM_DA_MENSAGEM]`.
+**[TASK]:**  
+Analyze the notes provided in `[RAW_CONTENT]` and write a complete email to `[RECIPIENT]`. The message must cover all key points while maintaining the style defined in `[MESSAGE_TONE]`.
 
-**[REGRAS DE OURO]:**  
-- Usa apenas as informações presentes em `[CONTEUDO_BRUTO]`. Não inventes datas, prazos, valores nem compromissos que não foram mencionados.
-- Vai direto ao ponto, eliminando palavras desnecessárias ou redundâncias.
-- Mantém uma escrita fluida e humana, evitando formalidades antiquadas ou linguagem robótica.
+**[GOLDEN RULES]:**  
+- Use only the information present in `[RAW_CONTENT]`. Do not invent dates, deadlines, figures, or commitments that were not mentioned.
+- Get straight to the point, eliminating unnecessary words or redundancies.
+- Maintain a fluid, human writing style, avoiding outdated formalities or robotic language.
 
-**[FORMATO DE SAÍDA]:**  
-Apresenta o e-mail organizado claramente nestas quatro partes:
-- **Assunto:** Direto, claro e fácil de identificar na caixa de entrada.
-- **Saudação:** Adequada à relação com o `[DESTINATARIO]`.
-- **Corpo da Mensagem:** Texto organizado em parágrafos curtos e objetivos (máximo 3 parágrafos).
-- **Encerramento:** Despedida profissional e cortês.
-
----
+**[OUTPUT FORMAT]:**  
+Present the email clearly organized into these four parts:
+- **Subject:** Direct, clear, and easy to identify in the inbox.
+- **Salutation:** Appropriate for the relationship with the `[RECIPIENT]`.
+- **Message Body:** Text organized into short, objective paragraphs (maximum 3 paragraphs).
+- **Closing:** Professional and courteous sign-off. ---
 
 ## Context and Inputs
-- **[CONTEUDO_BRUTO]:** As tuas anotações, tópicos soltos ou rascunho rápido com a informação que precisa de estar no e-mail.
-- **[DESTINATARIO]:** Quem vai receber a mensagem (ex.: "Cliente", "Chefe de Equipa", "Fornecedor").
-- **[TOM_DA_MENSAGEM]:** O estilo pretendido (ex.: "Profissional e Leve", "Formal", "Direto/Urgente", "Empático").
+- **[RAW_CONTENT]:** Your notes, rough bullet points, or a quick draft containing the information that needs to be in the email.
+- **[RECIPIENT]:** The person receiving the message (e.g., "Client," "Team Lead," "Supplier").
+- **[MESSAGE_TONE]:** The desired style (e.g., "Professional yet Casual," "Formal," "Direct/Urgent," "Empathetic").
 
 ---
 
 ## Output Requirements
 **Format:**  
-O e-mail deve vir pronto a copiar e colar, com Assunto, Saudação, Corpo e Encerramento bem delimitados.
+The email must be ready to copy and paste, with clearly defined Subject, Salutation, Body, and Closing sections.
 
 **Constraints:**  
-- Sem invenção de factos ou detalhes extra.
-- Garantir uma ortografia e gramática impecáveis.
+- Do not invent facts or add extra details.
+- Ensure impeccable spelling and grammar.
 
 **Tone and Style:**  
-Claro, elegante, moderno e adequado ao contexto profissional do dia a dia.
+Clear, elegant, modern, and appropriate for a professional day-to-day context.
+
